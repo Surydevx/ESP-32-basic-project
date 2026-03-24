@@ -12,7 +12,7 @@ const char* ssid = "PACMAN";
 const char* password = "zzzzzzzzz";
 
 // ===== ThingSpeak Credentials =====
-const char* thingspeakServer = "http://api.thingspeak.com/update";
+const char* thingspeakServer = "https://api.thingspeak.com/update";
 const char* thingspeakApiKey = "zzzzzzzzzzzzzzzz";  // Replace with your actual thingspeak write key
 unsigned long lastThingspeakUpdate = 0;
 const long thingspeakInterval = 15000;  // 15 seconds
